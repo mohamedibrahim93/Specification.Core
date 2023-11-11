@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable> 
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Specification.EF.Core</Title>
+    <Description>The Specification Pattern aims to separate the logic for checking conditions from the business entities they are applied to. It introduces a specification object that encapsulates a condition and provides a method to evaluate whether an entity satisfies that condition. By doing so, the pattern promotes a more modular and reusable approach to defining business rules.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="6.0.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.24" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Specification.Core\Specification.Core.csproj" />
+  </ItemGroup>
+
+</Project>

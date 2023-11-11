@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFrameworks>net6.0;netstandard2.0;netstandard2.1</TargetFrameworks>
+	<LangVersion>11.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Specification.Core</Title>
+    <Description>The Specification Pattern aims to separate the logic for checking conditions from the business entities they are applied to. It introduces a specification object that encapsulates a condition and provides a method to evaluate whether an entity satisfies that condition. By doing so, the pattern promotes a more modular and reusable approach to defining business rules.</Description>
+    <AnalysisLevel>6.0-recommended</AnalysisLevel>
+	<VersionPrefix>1.0.2</VersionPrefix>
+  </PropertyGroup>
+
+</Project>
